@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="385dp"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/diaMaPM"
+        android:hint="Mã phiếu mượn"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Spinner
+        android:id="@+id/spTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_spinner"
+        android:dropDownVerticalOffset="50dp"/>
+    <Spinner
+        android:id="@+id/spSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_spinner"
+        android:dropDownVerticalOffset="50dp"/>
+    <TextView
+        android:id="@+id/diaNgay"
+        android:text="Ngày: "
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/diaTienThue"
+        android:text="Tiền thuê: "
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/checkBoxTrangThai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đã trả sách"/>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:text="Lưu"
+        android:textColor="@color/white"
+        android:background="@drawable/button_login_background"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:text="Huỷ"
+        android:textColor="@color/white"
+        android:background="@drawable/button_login_background"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
