@@ -21,7 +21,7 @@ import com.example.duanmau.Fragment.ChangePassword;
 public class LoginLayout extends AppCompatActivity {
     private Button btnBack, btnLogin;
     private EditText edUser,edPass;
-    private LinearLayout linearLayout;eloasd
+    private LinearLayout linearLayout;eloasddsadas
     private CheckBox checkBox;
     private SharedPreferences sharedPreferences;
     @Override
