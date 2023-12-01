@@ -22,7 +22,7 @@ public class LoginLayout extends AppCompatActivity {
     private Button btnBack, btnLogin;
     private EditText edUser,edPass;
     private LinearLayout linearLayout;
-    private CheckBox checkBox,đâsdas;
+    private CheckBox checkBox;dsad
     private SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
